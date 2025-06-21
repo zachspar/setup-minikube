@@ -91,6 +91,16 @@ By default setup-minikube caches the ISO, kicbase, and preload using GitHub Acti
 </details>
 
 <details>
+  <summary>nodes (optional)</summary>
+  <pre>
+    - default: '' (minikube will auto-set)
+    - options:
+      - '<number>'
+    - example: 4
+  </pre>
+</details>
+
+<details>
   <summary>cpus (optional)</summary>
   <pre>
     - default: '' (minikube will auto-set)

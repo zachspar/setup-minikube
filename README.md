@@ -299,6 +299,7 @@ jobs:
           driver: docker
           container-runtime: containerd
           kubernetes-version: v1.22.3
+          nodes: 2
           cpus: 4
           memory: 4000m
           cni: bridge
